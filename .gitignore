@@ -361,3 +361,21 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignore Visual Studio-specific files
+.vs/
+bin/
+obj/
+**/*.user
+**/*.suo
+**/*.vscode
+
+# Ignore build files
+*.dll
+*.exe
+*.pdb
+
+# Ignore secrets
+appsettings.json
+appsettings.Development.json
+launchSettings.json
